@@ -1,0 +1,31 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 30px 60px;
+}
+
+h1, nav{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+li {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(17, 190, 17);
+    font-size: 13px;
+}
+nav {
+    margin-left: 70px;
+}
+
+h2 {
+    font-family: Calibri,  sans-serif;
+    font-weight: 600;
+}
+hr {
+    
+    border: 1px solid black;
+}
