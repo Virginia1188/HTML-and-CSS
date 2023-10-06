@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 40px 50px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    align-content: center;
+
+}
+
+a {
+    display: flex;
+    color: rgb(0, 153, 0);
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 10px 10px 20px;
+    text-decoration: none;
+}
