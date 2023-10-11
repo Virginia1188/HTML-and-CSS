@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 238, 238);;
+}
+
+h2 {
+    width: 100%;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em auto;
+    max-width: 50em;
+    gap: 1em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px;
+    overflow: hidden;
+    background: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0.5em rgb(0,0,0, 0.2);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.card section,
+.card footer {
+    padding: 1em 1.2em;
+}
+
+.card footer {
+    border-top: 2px solid #CCC;
+}
+
+.card section {
+    flex: 1 0 auto;
+}
