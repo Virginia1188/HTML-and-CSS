@@ -1,0 +1,233 @@
+/* 
+colors
+background  #efefef
+icons #909090
+btn #909090
+
+*/
+
+/* global styles */
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+}
+
+.page-section {
+    max-width: 1880px;
+    margin: 1.5rem auto;
+    height: 50vh;
+    background-color: #efefef;
+    padding: 3rem 8rem;
+    overflow: hidden;
+
+}
+
+.page-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.page-flex .info {
+    flex: 0 0 40%;
+    width: 40%;
+}
+
+.page-flex .section-img {
+    flex: 0 0 35%;
+    width: 35%;
+}
+
+.page-section .title {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 2.5rem;
+}
+
+.page-section .desc {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.page-section .divider.vertical {
+    height: 3rem;
+    width: 1px;
+    background-color: black;
+}
+
+.page-section .bolded {
+    font-weight: bold
+}
+
+
+
+/* hero */
+
+#hero.page-section {
+    position: relative;
+}
+
+#hero .navigation {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#hero .hero-img {
+    position: absolute;
+    width: 40%;
+    bottom: 0px;
+    right: 5rem;
+
+}
+
+/* camera */
+
+#camera .socials {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0px;
+}
+
+#camera .socials .social {
+    list-style: none;
+    width: 3rem;
+    height: 3rem;
+    background-color: #909090;
+    color: white;
+    position: relative;
+}
+
+#camera .socials .social i {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* thumb- 1 */
+
+#thumb-1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+#thumb-1 .thumb-1-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    object-fit: fill;
+}
+
+/* featured */
+
+#featured .featured-img {
+    width: 50%;
+}
+
+/* gallery */
+#gallery {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#gallery .list {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0px 10rem;
+    gap: 2rem;
+}
+
+#gallery .list .picture {
+    transition: transform 300ms ease-in-out;
+}
+
+#gallery .picture:hover {
+    transform: scale(1.5);
+}
+
+/* form */
+#contacts .info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacts .info-form .title {
+    margin-bottom: 1rem;
+}
+
+#contacts footer{
+    font-size: 14px;
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#contacts .form {
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    'email subject'
+    'msg msg'
+    'submit submit';
+    gap: 1rem;
+}
+
+#contacts .email::placeholder {
+    color: black;
+}
+
+#contacts .subject::placeholder {
+    color: black;
+}
+
+#contacts .msg::placeholder {
+    color: black;
+}
+
+#contacts .form input,
+#contacts .form textarea {
+    background-color: transparent;
+    border: 1px solid black ;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+#contacts .form .btn {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    grid-area: submit;
+}
+
+#contacts .form .email {
+    grid-area: email;
+}
+#contacts .form .subject {
+    grid-area: subject;
+}
+
+#contacts .form .msg {
+    grid-area: msg;
+}
+
+
