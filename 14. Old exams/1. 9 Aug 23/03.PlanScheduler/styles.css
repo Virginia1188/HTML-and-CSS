@@ -1,0 +1,275 @@
+/* 
+     background grey- #d9d9d9
+     background grey for pricing - #f5f5f5
+     orange - #ff7c4c
+     text grey - #707270
+
+*/
+
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+.site-header {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    padding-top: 1em;
+}
+
+.site-nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.site-header button {
+    margin: 1em 4em;
+    padding: 0.5em 1.5em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* footer */
+.site-footer {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+
+}
+
+.site-footer ul {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+/* main */
+
+/* banner */
+
+.banner {
+    min-height: 85vh;
+    background-image: url('./images/background.jpg');
+    background-position: bottom;
+    padding-left: 15em;
+}
+
+.banner-info {
+    max-width: 50%;
+
+}
+
+.title {
+    font-size: 4em;
+    line-height: 1;
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+
+}
+
+.banner-info p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 2.5em;
+}
+
+.banner-info button {
+    background-color: black;
+    color: white;
+    padding: 1.25em 2.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+/* info */
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 3em 1em;
+}
+
+.info-card {
+    text-align: center;
+}
+
+.info-card .colored {
+    color: #ff7c4c;
+    font-size: 3em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.info-card h4 {
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.info-card p {
+    color: #707270;
+    font-size: 14px;
+    padding-bottom: 1em;
+}
+
+/* cards */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    padding: 2.5em 4em;
+    gap: 1.5em;
+}
+
+.card {
+    display: flex;
+}
+
+.cards .img {
+    max-width: 25%;
+}
+
+.card-txt {
+    padding-left: 1em;
+}
+
+.card-subtitle {
+    font-size: 16px;
+    color: #707270;
+    padding: 1.5em 0;
+
+}
+.card-title {
+    padding-bottom: 1em;
+}
+
+.card p {
+    color: #707270;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.card .read-more {
+    color: black;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+.card .posted-info {
+    padding-top: 2em;
+}
+
+/* pricing */
+.pricing {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-box {
+    min-width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+    margin-inline: 2em;
+    
+}
+
+.box {
+    min-width: 25%;
+    
+}
+
+#box1 {
+    padding: 1em;
+    flex: 0 0 30%;
+}
+
+#box1 p{
+    font-size: 16px;
+    padding: 2em 0;
+    line-height: 1;
+    color: #707270;
+}
+
+#box2 {
+    background-color: #ff7c4c;
+    padding: 1em;
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+#box3 {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    flex: 0 0 30%;
+    text-align: center;
+}
+
+.bolded {
+    font-weight: bold;
+    padding-right: 0.25em;
+}
+
+.box h3 {
+    font-size: 2em;
+}
+.box h2 {
+    padding-top: 0.5em;
+}
+
+#box2 .price,
+#box3 .price {
+    font-size: 4em;
+    font-weight: light;
+}
+
+#box2 p,
+#box3 p {
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+#box2 button {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 3px;
+    margin: 3em 0 2em 0;
+}
+
+#box3 button {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 3px;
+    margin: 3em 0 2em 0;
+}
