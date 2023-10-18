@@ -1,0 +1,89 @@
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    background-image: url('./images/background.jpg');
+    background-size: cover; /* This will cover the entire container */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center center; /* This centers the image */
+    padding: 3em 1em;
+}
+
+.wrapper {
+    max-width: 65%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card {
+    min-height: 48%;
+    background-color: white;
+    border:  2px solid black;
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    align-content: center;
+  
+}
+
+.aside-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 25%;
+    max-height: 100%;
+    padding: 2em;
+   
+}
+
+.aside-quote {
+    padding: 2em 0;
+}
+
+.aside-author {
+    border-top: 1px solid grey;
+    display: flex;
+
+}
+
+.aside-author-name {
+    align-self: center;
+}
+
+.quote-mark {
+    font-size: 3em;
+    font-weight: bolder;
+    
+}
+.img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0.5em;
+    align-self: center;
+    
+}
+
+.img-aside {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Should be the same as the width */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1em;
+}
+
+img {
+    width: 100%; /* This ensures the image takes up the full container */
+    height: auto;
+    display: block; 
+}
