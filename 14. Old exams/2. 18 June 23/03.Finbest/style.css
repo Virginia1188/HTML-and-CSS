@@ -1,0 +1,281 @@
+ /* 
+ background green - #ade2df
+ ligth greenish grey - #f3f5fa -  */
+
+ /* reset */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+	font: 16px/1.5 'Inter', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* general */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 1em;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.user {
+    align-self: center;
+}
+
+.login {
+    border: none;
+    background: white;
+    padding: 0.75em 1.25em;
+}
+
+.register {
+    border: none;
+    background: #ade2df;
+    padding: 0.75em 1.25em;
+    border-radius: 0.5em;
+}
+
+/* main */
+
+/* sec1 */
+.sec1 {
+    background-color: #ade2df;
+    text-align: center;
+}
+
+.sec1 h2 {
+    font-size: 4em;
+    padding-top: 1.5em;
+}
+.sec1 p {
+    font-size: 16px;
+}
+
+.sec1 button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1.5em 2em;
+    border-radius: 0.5em;
+    margin: 2em 0.25em 4em 0.25em;  
+}
+.btns i {
+    padding-right: 0.5em;
+}
+
+/* sec2 */
+.sec2 {
+    display: flex;
+    justify-content: center;
+    padding: 5em 5em;
+
+}
+
+.sec2 section {
+    max-width: 25%;
+    border-left: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+    padding: 0 2em;
+}
+
+.sec2 h2 {
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.sec2 p {
+    padding-bottom: 5em;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* sec3 */
+
+.sec3 {
+    background: #ade2df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3 .img img{
+    border: 1px dashed darkgrey;
+}
+
+.sec3 .desc {
+    width: 40%;
+    padding: 5em;
+}
+
+.sec3 .desc h2 {
+    font-size: 3em;
+    padding-bottom: 0.5em;
+    
+}
+
+.sec3 .desc h3 {
+    padding-bottom: 0.5em;
+}
+
+.sec3 .desc p {
+    padding-bottom: 1.5em;
+}
+
+.sec3 .desc .decorated {
+    padding-top: 2em;
+
+}
+
+.sec3 .desc .decorated a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+/* sec4 */
+
+.sec4 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f5fa;
+    border-radius: 2em;
+}
+
+.sec4 .cards {
+    display: flex;
+    border: 1px solid lightgray;
+    
+    margin: 3em 0;
+    
+}
+
+.sec4 .price-cards {
+    width: 60%;
+    display: flex;
+    background-color: white;
+    padding: 2em 0 2em 2em;
+    border-top-left-radius: 2em;
+
+}
+
+.sec4 .price-cards section {
+    padding: 0 2em;
+    width: 33.3%;
+    border-right: 1px solid lightgrey;
+    /* margin: 2em 0; */
+}
+
+.sec4 .price-cards h3 {
+    text-align: center;
+}
+
+.sec4 .price-cards h2{
+    font-size: 3em;
+    border-bottom: 1px solid lightgrey;
+    padding: 0.5em 0;
+    margin-bottom: 0.75em;
+}
+
+.sec4 .price-cards span {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.sec4 .price-cards p {
+    padding: 0.5em;
+}
+
+.sec4 .price-cards i {
+    padding-right: 0.25em;
+}
+
+.sec4 .price-cards .btn-plan {
+    text-align: center;
+    background-color: #ade2df;
+    border-radius: 0.5em;
+    padding: 1.5em 0;
+    margin-top: 3em;
+}
+
+.sec4 .price-cards .btn-plan a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.sec4 .contact {
+    width: 40%;
+    background-color: #ade2df;
+}
+
+.sec4 .contact h3 {
+    text-align: center;
+}
+
+.sec4 .contact h2 {
+ padding: 1.5em;
+}
+
+.sec4 .contact .included p {
+    padding: 0.5em 2.25em;
+}
+
+.sec4 .contact i {
+    padding-right: 0.25em;
+}
+
+.sec4 .contact .btn-plan {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 14.75em 2em 2em 2em;
+    border-radius: 0.5em;
+    padding: 1.5em 0;
+
+}
+
+.sec4 .contact .btn-plan a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* footer */
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.site-footer .social span {
+    padding: 1em;
+}
